@@ -1,0 +1,43 @@
+.blueOnHover {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0;
+  word-spacing: 0;
+  font-size: 0;
+}
+
+.blueOnHover:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(151, 204, 247, 0.9);
+  transition: opacity 0.3s;
+  opacity: 0;
+  z-index: 2;
+}
+
+.blueOnHover:hover:before {
+  opacity: 1;
+}
+
+.blueOnHover:hover > .SVGIcon {
+  top: 60%;
+  opacity: 1;
+  transition: all 0.5s ease-in 0s;
+}
+
+.SVGIcon {
+  top: 90%;
+  margin-left: -20px;
+  margin-top: -50px;
+  left: 50%;
+  position: absolute;
+  font-size: 50px;
+  z-index: 3;
+  transition-property: top;
+  opacity: 0;
+}
