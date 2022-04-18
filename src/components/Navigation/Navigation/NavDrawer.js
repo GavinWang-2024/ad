@@ -11,14 +11,14 @@ import {
 } from '@mui/material';
 
 import { styled, useTheme } from '@mui/material/styles';
-import ShopOutlinedIcon from '@mui/icons-material/ShopOutlined';
 import MenuIcon from '@mui/icons-material/Menu';
+import InfoIcon from '@mui/icons-material/Info';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import StarBorderOutlinedIcon from '@mui/icons-material/StarBorderOutlined';
+import CalculateIcon from '@mui/icons-material/Calculate';
+import BuildIcon from '@mui/icons-material/Build';
 import MailIcon from '@mui/icons-material/Mail';
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
 import Link from '../../../Link';
 import { buttons } from './NavButtons/NavButtons';
 import { links } from './NavLinks/NavLinks';
@@ -82,11 +82,11 @@ export default function PersistentDrawerRight() {
             >
               <ListItemIcon>
                 {index === 0 ? (
-                  <InboxIcon />
+                  <InfoIcon />
                 ) : index === 1 ? (
-                  <MailIcon />
+                  <PrecisionManufacturingIcon />
                 ) : index === 2 ? (
-                  <ShopOutlinedIcon />
+                  <MailIcon />
                 ) : null}
               </ListItemIcon>
               <ListItemText primary={link.text} />
@@ -105,9 +105,9 @@ export default function PersistentDrawerRight() {
             >
               <ListItemIcon>
                 {index === 0 ? (
-                  <ShoppingCartOutlinedIcon />
+                  <BuildIcon />
                 ) : index === 1 ? (
-                  <StarBorderOutlinedIcon />
+                  <CalculateIcon />
                 ) : null}
               </ListItemIcon>
               <ListItemText primary={button.title} />

@@ -16,7 +16,6 @@ export default function MainGalleryBox(props) {
                   src
                   src={image.src}
                   alt="изображение"
-                  style={{ width: '100%' }}
                 />
               </Box>
             );

@@ -1,6 +1,7 @@
 import Welcome from '../src/components/Index/Welcome/Welcome';
 import Navigation from '../src/components/Navigation/Navigation';
 import Main from '../src/components/Index/Main/Main';
+import Head from 'next/head';
 import { motion } from 'framer-motion';
 import { useContext } from 'react';
 import { BreakpointsContext } from '../src/context/breakpoints-context';
@@ -39,6 +40,13 @@ export default function Index() {
 
   return (
     <>
+      <Head>
+        <title>Нефтегазмаш</title>
+        <meta
+          name="description"
+          content="Нефтегазмаш специализируется на разработке и производстве систем очистки и регенерации буровых растворов, систем комплексной утилизации отходов бурения, технологической оснастки, а так же производстве строительных металлоконструкций и емкостей различной сложности. За более чем 20 лет, нами реализовано множество различных проектов. Если Вам нужен индивидуальный подход при выполнении заказа, значит вы пришли в нужное место!"
+        />
+      </Head>
       {ctx.isSmall && (
         <Navigation
           initial={initial}

@@ -19,10 +19,6 @@ export default function SplitButton() {
   const anchorRef = React.useRef(null);
   const [selectedIndex, setSelectedIndex] = React.useState(1);
 
-  const handleClick = () => {
-    console.info(`You clicked ${options[selectedIndex]}`);
-  };
-
   const handleMenuItemClick = (event, index) => {
     setSelectedIndex(index);
     setOpen(false);
@@ -50,7 +46,6 @@ export default function SplitButton() {
         <Button
           component={Link}
           href={hrefs[selectedIndex]}
-          onClick={handleClick}
           color={colors[selectedIndex]}
           key={options[selectedIndex]}
         >
