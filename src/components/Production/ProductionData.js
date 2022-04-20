@@ -46,7 +46,11 @@ export default function (props) {
         />
         <TypographyHeader sx={{ mt: 5 }}>{props.data.title}</TypographyHeader>
         <Grid container justifyContent="center">
-          <Image src={props.data.image} width={1000} height={542} />
+          <Image
+            src={props.data.image}
+            width={props.data.imageWidth}
+            height={props.data.imageHeight}
+          />
 
           <Grid item xs={12}>
             <TypographyParagraphNoMargin

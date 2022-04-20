@@ -4,6 +4,8 @@
       "id": "scmbu",
       "title": "Система Циркуляционная СЦМБУ",
       "image": "/images/sc/SCMBU-full.jpg",
+      "imageWidth": 900,
+      "imageHeight": 636,
       "gallery": [
         {
           "image": "/images/sc/SCMBU/SCMBU-1.jpg",
@@ -126,6 +128,8 @@
       "id": "sc144",
       "title": "Система Циркуляционная СЦ-144",
       "image": "/images/sc/SC144-full.jpg",
+      "imageWidth": 900,
+      "imageHeight": 488,
       "gallery": [
         {
           "image": "/images/sc/SC144/SC144-1.jpg",
@@ -157,6 +161,8 @@
       "id": "sc200",
       "title": "Система Циркуляционная СЦ-200",
       "image": "/images/sc/SC200-full.jpg",
+      "imageWidth": 900,
+      "imageHeight": 635,
       "gallery": [
         {
           "image": "/images/sc/SC200/SC200-1.jpg",
@@ -275,7 +281,8 @@
     },
     {
       "id": "sc250",
-
+      "imageWidth": 900,
+      "imageHeight": 675,
       "title": "Система Циркуляционная СЦК-250",
       "image": "/images/sc/SCK250-full.jpg",
       "gallery": [
@@ -425,130 +432,13 @@
         }
       ]
     },
-    {
-      "id": "sc200",
-      "title": "Система Циркуляционная СЦ-200",
-      "image": "/images/sc/SC200-full.jpg",
-      "gallery": [
-        {
-          "image": "/images/sc/SC200/SC200-1.jpg",
-          "title": 0
-        },
-        {
-          "image": "/images/sc/SC200/SC200-2.jpg",
-          "title": 1
-        },
-        {
-          "image": "/images/sc/SC200/SC200-3.jpg",
-          "title": 2
-        }
-      ],
-      "purpose": "Предназначена для очистки, приготовления, обработки и транспортирования бурового раствора от устья скважины до входа буровых насосов при бурении нефтяных и газовых скважин.",
-      "tables": [
-        {
-          "tableHeader": "Блок грубой очистки",
-          "details": [
-            {
-              "name": "Сито вибрационное",
-              "amount": "3шт"
-            },
-            {
-              "name": "Дегазатор",
-              "amount": "1шт"
-            },
-            {
-              "name": "Ситогидроциклонная установка СГУ",
-              "amount": "1шт"
-            },
-            {
-              "name": "Насос шламовый 55кВт",
-              "amount": "3шт"
-            }
-          ]
-        },
-        {
-          "tableHeader": "Блок тонкой очистки",
-          "details": [
-            {
-              "name": "Центрифуга ",
-              "amount": "1шт"
-            },
-            {
-              "name": "Насос центрифуги",
-              "amount": "1шт"
-            },
-            {
-              "name": "Перемешиватель механический ",
-              "amount": "2шт"
-            }
-          ]
-        },
-        {
-          "tableHeader": "Блок приготовления",
-          "details": [
-            {
-              "name": "Перемешиватель механический",
-              "amount": "2шт"
-            },
-            {
-              "name": "Насос шламовый 55кВт",
-              "amount": "1шт"
-            },
-            {
-              "name": "Смеситель СМ-100",
-              "amount": "1шт"
-            }
-          ]
-        },
-        {
-          "tableHeader": "Блок накопительный",
-          "details": [
-            {
-              "name": "Перемешиватель механический",
-              "amount": "3шт"
-            }
-          ]
-        },
-        {
-          "tableHeader": "Блок накопительный",
-          "details": [
-            {
-              "name": "Перемешиватель механический",
-              "amount": "3шт"
-            }
-          ]
-        },
-        {
-          "tableHeader": "Блок долива",
-          "details": [
-            {
-              "name": "Резервуар (утепленный) V=10м3 ",
-              "amount": "1шт"
-            },
-            {
-              "name": "Насос погружной",
-              "amount": "1шт"
-            }
-          ]
-        },
-        {
-          "tableHeader": "Лестницы"
-        },
-        {
-          "tableHeader": "Коллектор буровых насосов"
-        },
-        {
-          "tableHeader": "Электроталь 2т. на балке (общепромышленная) "
-        },
-        {
-          "tableHeader": "Успокоительная емкость 1м3"
-        }
-      ]
-    },
+
     {
       "id": "svs",
       "title": "Вибросито СВС",
       "image": "/images/svs/svs-full.jpg",
+      "imageWidth": 900,
+      "imageHeight": 675,
       "purpose": "Сито вибрационное является первой ступенью очистки бурового раствора циркуляционных систем. Предназначено для очистки бурового раствора от выбуренной породы при бурении и капитальном ремонте нефтяных и газовых скважин.",
       "gallery": [
         {
@@ -578,6 +468,8 @@
       "id": "bkf",
       "title": "Блок коагуляции флокуляции БКФ или Флокуляционно - сепарационная установка ФСУ",
       "image": "/images/bkf/bkf-full.jpg",
+      "imageWidth": 900,
+      "imageHeight": 675,
       "gallery": [
         {
           "image": "/images/bkf/bkf-1.jpg",
@@ -601,6 +493,8 @@
     },
     {
       "id": "ku02m",
+      "imageWidth": 900,
+      "imageHeight": 636,
       "title": "Комплекс утилизации КУ-02М",
       "image": "/images/ku/ku-02m-full.jpg",
       "gallery": [
@@ -636,6 +530,8 @@
       "id": "kupnsh",
       "title": "Комплекс утилизации и переработки нефтяных шламов (КУПНШ)",
       "image": "/images/kupnsh/kupnsh-full.jpg",
+      "imageWidth": 900,
+      "imageHeight": 636,
       "gallery": [
         {
           "image": "/images/kupnsh/kupnsh-1.jpg",
@@ -669,6 +565,8 @@
       "id": "umosh",
       "title": "Установка Мобильная Осушения Шлама (УМОШ)",
       "image": "/images/umosh/umosh-full.jpg",
+      "imageWidth": 900,
+      "imageHeight": 600,
       "gallery": [
         {
           "image": "/images/umosh/umosh-1.jpg",

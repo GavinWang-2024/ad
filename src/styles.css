@@ -56,3 +56,9 @@
 .greyOnHover:hover:before {
   opacity: 1;
 }
+
+.snackbar {
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}

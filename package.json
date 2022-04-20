@@ -12,6 +12,7 @@
     "clsx": "latest",
     "framer-motion": "^5.5.5",
     "next": "latest",
+    "nodemailer": "^6.7.3",
     "prop-types": "latest",
     "react": "^17.0.2",
     "react-dom": "latest",
