@@ -62,3 +62,11 @@
   right: 0px;
   bottom: 0px;
 }
+
+.titlefix {
+  border-top: 80px solid transparent;
+  margin-top: -80px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}

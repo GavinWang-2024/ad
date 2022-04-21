@@ -23,11 +23,11 @@ const MotionProps = {
 export default function MainProduction() {
   return (
     <Grid
-      mt={5}
       sx={{ backgroundColor: '#F3F3F3' }}
       {...MotionProps}
       component={motion.div}
       id="production"
+      className="titlefix"
     >
       <TypographyHeader sx={{ pt: 5 }} {...MotionProps} component={motion.p}>
         Наше Производство

@@ -18,6 +18,7 @@ export default function MainCompany() {
       sx={{ backgroundColor: '#F3F3F3', height: 'auto' }}
       pt={4}
       id="company"
+      className="titlefix"
     >
       <Grid container item justifyContent="center" alignItems="center">
         <MainTypowriter />

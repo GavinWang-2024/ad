@@ -22,7 +22,7 @@ const MotionProps = {
 
 export default function MainContacts() {
   return (
-    <Grid mt={10} container id="contacts">
+    <Grid container id="contacts" className="titlefix">
       <Grid item container direction="column" xs={12} alignItems="center">
         <TypographyHeader {...MotionProps} component={motion.p}>
           Контакты
