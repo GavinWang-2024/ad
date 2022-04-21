@@ -1,4 +1,6 @@
-export default function handler(req, res) {
+const nodemailer = require('nodemailer');
+
+export default async function handler(req, res) {
   const { name, email, company, phone, text, test } = req.body;
 
   if (
@@ -13,8 +15,7 @@ export default function handler(req, res) {
     return;
   }
 
-  let nodemailer = require('nodemailer');
-  const transporter = nodemailer.createTransport({
+  let transporter = nodemailer.createTransport({
     port: 465,
     host: 'smtp.gmail.com',
     auth: {
@@ -34,9 +35,18 @@ export default function handler(req, res) {
       <p> Номер телефона: ${req.body.phone}</p>
       <p> Текст сообщения: ${req.body.text}</p>`,
   };
-  transporter.sendMail(mailData, function (err, info) {
-    if (err) console.log(err);
-    else console.log(info);
+  await new Promise((resolve, reject) => {
+    // send mail
+    transporter.sendMail(mailData, (err, info) => {
+      if (err) {
+        console.error(err);
+        reject(err);
+      } else {
+        console.log(info);
+        resolve(info);
+      }
+    });
   });
-  res.status(200).json({ message: 'Сообщение отправлено!' });
+
+  res.status(200).json({ status: 'OK' });
 }
