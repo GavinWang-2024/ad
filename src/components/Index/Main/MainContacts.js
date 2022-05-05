@@ -42,7 +42,7 @@ export default function MainContacts() {
       </Grid>
       <Grid item container justifyContent="center" my={5}>
         <TypographyHeader sx={{ mx: 2 }} {...MotionProps} component={motion.p}>
-          Вы так же можете найти нас на карте
+          Вы также можете найти нас на карте
         </TypographyHeader>
       </Grid>
       <Grid item {...MotionProps} component={motion.div} xs={12}>
