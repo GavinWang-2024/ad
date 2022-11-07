@@ -19,13 +19,13 @@ export default async function handler(req, res) {
     port: 465,
     host: 'smtp.gmail.com',
     auth: {
-      user: 'ngmcompanyru@gmail.com',
-      pass: 'NGMcompany23',
+      user: process.env.emailFrom,
+      pass: process.env.emailFromPass,
     },
     secure: true,
   });
   const mailData = {
-    from: 'ngmcompanyru@gmail.com',
+    from: process.env.emailTo,
     to: 'asv@ngmt.ru',
     subject: `Сообщение с сайта НГМ`,
     html: `<p>Данные с формы сайта: </p>
