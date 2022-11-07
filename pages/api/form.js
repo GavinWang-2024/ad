@@ -17,7 +17,7 @@ export default async function handler(req, res) {
 
   let transporter = nodemailer.createTransport({
     port: 465,
-    host: 'smtp.gmail.com',
+    host: 'smtp.yandex.ru',
     auth: {
       user: process.env.emailFrom,
       pass: process.env.emailFromPass,
@@ -25,8 +25,8 @@ export default async function handler(req, res) {
     secure: true,
   });
   const mailData = {
-    from: process.env.emailTo,
-    to: 'asv@ngmt.ru',
+    from: process.env.emailFrom,
+    to: process.env.emailTo,
     subject: `Сообщение с сайта НГМ`,
     html: `<p>Данные с формы сайта: </p>
       <p> ФИО: ${req.body.name}</p>
