@@ -28,7 +28,7 @@ Finally, the application also provides the opportunity to send an email to the c
 ![image](https://github.com/i-sviridov/i-sviridov/blob/99af6ca19391391ecfa74162dcbd2ff6b9123ba8/ngmcompany-files/form-submission.gif)
 
 
-The application supports the following API routes:
+The application supports the following API route:
 | /api/form                                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------------------------|
 | { <br /> method: 'POST', <br />headers: { 'Content-Type': 'application/json' }, <br /> body: JSON.stringify({data}) <br />} |
