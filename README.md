@@ -23,7 +23,7 @@ Each individual item is presented on its own page using dynamic routes. I also u
 
 ![image](https://github.com/i-sviridov/i-sviridov/blob/99af6ca19391391ecfa74162dcbd2ff6b9123ba8/ngmcompany-files/individual-item.gif)
 
-Finally, the application also provides the opportunity to send an email to the company's address right from the page. For this, I made a form API route backend with a Nodemailer, which is responsible for sending mails.
+Finally, the application also provides the opportunity to send an email to the company's address right from the page. For this, I made a form API route backend with a Nodemailer, which is responsible for sending mails. I used a small math test for a simple anti-spam check.
 
 ![image](https://github.com/i-sviridov/i-sviridov/blob/99af6ca19391391ecfa74162dcbd2ff6b9123ba8/ngmcompany-files/form-submission.gif)
 
