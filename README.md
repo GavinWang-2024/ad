@@ -31,7 +31,7 @@ Finally, the application also provides the opportunity to send an email to the c
 The application supports the following API route:
 | /api/form                                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------------------------|
-| { <br /> method: 'POST', <br />headers: { 'Content-Type': 'application/json' }, <br /> body: JSON.stringify({data}) <br />} |
+| `{` <br /> ` method: 'POST', `<br />` headers: { 'Content-Type': 'application/json' }, `<br /> ` body: JSON.stringify({data})` <br />`}` |
 
 
 
