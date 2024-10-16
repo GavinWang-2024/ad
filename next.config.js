@@ -4,9 +4,9 @@ module.exports = (phase) => {
   if (phase === PHASE_DEVELOPMENT_SERVER) {
     return {
       env: {
-        emailFrom,
-        emailFromPass,
-        emailTo,
+        emailFrom:'gavinwang2024@gmail.com',
+        emailFromPass:'gavinwang2024@gmail.com',
+        emailTo:'gavinwang2024@gmail.com',
       },
       reactStrictMode: true,
     };

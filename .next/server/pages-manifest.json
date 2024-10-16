@@ -1,11 +1,6 @@
 {
-  "/[pid]": "pages/[pid].js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/api/form": "pages/api/form.js",
-  "/calculator": "pages/calculator.html",
-  "/": "pages/index.html",
-  "/production": "pages/production.html",
   "/_error": "pages/_error.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
