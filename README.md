@@ -5,6 +5,7 @@
 2. Install and run
 
 ```sh
+cd ad
 npm install
 npm run dev
 ```
